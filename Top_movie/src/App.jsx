@@ -3,7 +3,7 @@ import Search from './reactcompo/Search.jsx';
 import MovieCard from './reactcompo/MovieCard.jsx';
 
 const API_BASE_URL = "https://api.themoviedb.org/3";
-const API_KEY = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3ZjM3MjMzNGIxMjQyZTQyNzE4ZjkyZGYxMzAxY2QyYSIsIm5iZiI6MTc1MDA2Njc5Mi40NzYsInN1YiI6IjY4NGZlNjY4MmNlZGFjNjExOTVjODIyOCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.rGmFLzrO25UPmriQGLSv9PUzfSnabaguv4Is8AjvoAE';
+const API_KEY = 'YOUR_API_KEY';
 
 const API_OPTIONS = {
   method: 'GET',
