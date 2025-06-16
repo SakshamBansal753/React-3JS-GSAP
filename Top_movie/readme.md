@@ -29,6 +29,8 @@ npm dotenv
 ```
 
 ## 🖼️ UI Preview
+<img src="https://github.com/SakshamBansal753/React/blob/main/Top_movie/first.jpg"/>
+<img src="https://github.com/SakshamBansal753/React/blob/main/Top_movie/second.jpg"/>
 
 ## 💬 Let’s Connect!
 "A Free Movie Website — Love it, Share it, Enjoy it."
