@@ -10,7 +10,7 @@ const App = () => {
   const [Weather, setWeather] = useState(null)
   const[Forecast,setForecast]=useState(null)
   const API_URL="https://api.openweathermap.org/data/2.5/weather"
-  const API_KEY="3337be12d4710d6fa0e668b07b7d5157"
+  const API_KEY="Your APIKEY"
 
   const Fetch_data=async()=>{
     setLoading(true)
