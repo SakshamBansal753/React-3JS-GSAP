@@ -44,9 +44,9 @@ const VideoCarousel = () => {
   useEffect(() => {
     if (loadedData.length >= hightlightsSlides.length) {
       if (!isPlaying) {
-        videoRef.current[videoId]?.pause();
+        videoRef.current[videoId].pause();
       } else {
-        startPlay && videoRef.current[videoId]?.play();
+        startPlay && videoRef.current[videoId].play();
       }
     }
   }, [startPlay, isPlaying, loadedData, videoId]);
@@ -81,6 +81,7 @@ const VideoCarousel = () => {
             ...prev,
             isLastVideo: true,
             isPlaying: false,
+            
           }));
         } else {
           setVideo((prev) => ({
@@ -91,6 +92,15 @@ const VideoCarousel = () => {
           }));
         }
         break;
+        case "video-last":
+  setVideo((prev) => ({
+    ...prev,
+    videoId: 0,         // restart from first video
+    isPlaying: true,    // play automatically
+    startPlay: true,
+    isLastVideo: false,
+  }));
+  break;
 
       default:
         return Video;
